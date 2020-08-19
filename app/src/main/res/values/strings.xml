@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opendrawer">Open Drawer</string>
+    <string name="closedrawer">Closed Drawer</string>
+
+    <string name="preference_file">Restaurant_Preference</string>
+    <string name="nameerror">    Enter Valid Name</string>
+    <string name="emailerror">  Enter Valid Email</string>
+    <string name="passworderror">Enter Some Password</string>
+    <string name="mobilerror">Enter Valid Mobile Number</string>
+    <string name="q1">Why this App?</string>
+    <string name="a1">In this busy world People don\'t have time to go to restaurants and eat. Therefore, having an app as great as this makes yor life easier and tasty.</string>
+    <string name="q2">How many restaurants do you have?</string>
+    <string name="a2">We cover a large variety of restaurants located at your city and deliver delicious food at your doorsteps</string>
+    <string name="q3">Would my payment details secure on this app?</string>
+    <string name="a3">Your details are protected by google\'s Alpha security and hence cannot be breached. Thus, its a good reason to trust the app and its backend work.</string>
+    <string name="q4">Is Cash on delivery available?</string>
+    <string name="a4">We provide a bunch of payment options which does include Cash on dekivery and we are more happy to deliver food at your doorsteps and don\'t forget your satisfaction is our top priority.</string>
+    <string name="ordering_from">Ordering From :</string>
+
+</resources>

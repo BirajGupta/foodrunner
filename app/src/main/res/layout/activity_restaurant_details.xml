@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestaurantDetails">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool"
+        app:titleTextColor="#fff"
+app:subtitleTextColor="#fff"
+        android:background="@color/colorPrimary"></androidx.appcompat.widget.Toolbar>
+<TextView
+    android:id="@+id/t1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="Choose from menu listed below :- "
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:textSize="18sp"
+    android:layout_below="@+id/tool"/>
+
+<LinearLayout
+    android:id="@+id/ll"
+    android:layout_below="@id/t1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/sc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+android:paddingBottom="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv2"
+        android:layout_below="@id/t1"
+        /></ScrollView></LinearLayout>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:textAllCaps="true"
+       android:layout_alignParentBottom="true"
+        android:id="@+id/place"
+        android:background="@color/colorPrimary"
+        android:text="Proceed To Cart"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
